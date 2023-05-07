@@ -1,0 +1,127 @@
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .example::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.contain{
+    width: auto;
+    overflow: auto;
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contain img{
+    width:15%;
+    padding: 23px;
+    filter: grayscale(256);
+    transition: 0.6s;
+}
+.contain img:hover{
+    filter: grayscale(0);
+    transition: 0.6s;
+}
+/* Cards Section */
+.cards{
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.image{
+  background:url('Brands/card1.png');
+  width:50%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(246, 241, 241);
+  border-radius: 13px;
+  height: 660px;
+}
+.desc{
+  width: 50%;
+  background-color:bisque;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.desc1{
+  width: 50%;
+  background-color:rgb(9, 73, 64);
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.head{
+  font-size: 54px;
+  font-weight: 600;
+  font-family: 'Fjalla One', sans-serif;
+  color:white;
+  transition: 0.4s;
+  animation:anime1 5s infinite;
+}
+@keyframes anime1 {
+  0%{transform:scale3d(1,1,1)}
+  50%{transform:scale3d(1,1.2,6)}
+  100%{transform:scale3d(1,1,1)}
+}
+.head1{
+  font-size: 54px;
+  font-weight: 600;
+  font-family: 'Fjalla One', sans-serif;
+  animation: anime 5s infinite;
+  transition: 0.5s;
+}
+@keyframes anime {
+  0%{
+    transform: translateY(-50px);
+  display: block;}
+  50%{transform: translateY(-10px);}
+  100%{
+    transform: translateY(-50px);}
+}
+.card2{
+  background-color: rgb(238, 230, 230);
+  width: 50%;
+}
+.para{
+  font-size:30px;
+  font-family: 'Quicksand', sans-serif;
+}
+.image1{
+  width:100%;
+  border: 2px solid rgb(246, 241, 241);
+  height: 860px;
+}
+.list{
+  list-style-type:disc;
+  font-size: 30px;
+  color: aliceblue;
+  animation: anime1 5s infinite;
+}
+/* footer section css */
+.payment{
+  display: flex;
+  justify-content: space-between;
+}
+.base{
+  background-color: black;
+  padding: 23px;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 23px;
+  letter-spacing: 5px;
+}

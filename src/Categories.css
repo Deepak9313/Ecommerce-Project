@@ -1,0 +1,25 @@
+.div1{
+    border:2px solid rgb(76, 72, 72);
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+#head{
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 3px;
+}
+#select{
+    width:400px;
+    padding: 0px 20px;
+    border-radius: 23px;
+}
+#select:hover{
+    background:linear-gradient(60deg,rgb(247, 198, 198),rgb(255, 222, 182));
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 23px;
+}

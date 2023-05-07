@@ -1,0 +1,47 @@
+.card{
+    padding: 10px;
+    width:25rem;
+    margin: 20px;
+    box-shadow: 2px 5px 20px 1px  grey;
+}
+.card-title{
+    color:rgb(12, 11, 11);
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.card-title:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    color: rgb(113, 105, 225);
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.button{
+    width: 95%;
+    align-items: center !important;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    transition: 0.8s;
+    background-color: crimson;
+}
+@media only screen and ((min-width:1000px) and (max-width:1270px)){
+    .card{
+        width:23rem;
+        transition: all 0.4s;
+    }
+}
+@media only screen and ((min-width:750px) and (max-width:1000px)){
+    .card{
+        width:17rem;
+        transition: all 0.4s;
+        
+    }
+}

@@ -1,0 +1,59 @@
+nav{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 23px;
+    font-weight:900 !important;
+}
+.form1{
+    width: 20vw;
+    border-radius: 23px;
+    text-indent: 23px;
+    background-color: rgba(255, 255, 255, 0.967);
+}
+.a2{
+    font-size: 34px;
+    color:red;
+    text-shadow: 2px 0px 2px rgb(231, 150, 80);
+    transition: 0.3s;
+    cursor: pointer;
+    display: block;
+}
+.pills{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    color:rgb(248, 248, 248);
+    font-weight: bolder;
+    padding: 2px !important;
+    font-size: 18px;
+    border-radius: 50%;
+    top:0;
+    align-items: center;
+}
+.a2:hover{
+    transition: 0.5s;
+    color: white;
+    text-shadow: 2px 0px 2px rgb(231, 150, 80);
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+}
+.btn1{
+    background:linear-gradient(45deg,rgb(88, 244, 244),rgb(72, 248, 72));
+    border: 0px;
+    display: flex;
+    transition: 0.4s;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    transition: 0.5s;
+    background:linear-gradient(60deg,rgb(119, 88, 244),rgb(222, 72, 248));
+    border-radius: 50%;
+    padding: 7px;
+}
+.just{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
