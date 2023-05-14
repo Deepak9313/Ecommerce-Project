@@ -1,9 +1,13 @@
+body{
+  
+}
 .div1{
     position: relative;
     display: flex;
     align-items: center;
     transition: 0.9s;
     position: relative;
+    background-color: white;
     padding: 1em 2em;
     border: none;
     border-radius: 5px;

@@ -17,15 +17,15 @@ const Brands = () =>{
     return(
     <>
         <div className="contain example">
-            <img src={one} alt="..." />
-            <img src={second}  alt="..."/>
-            <img src={third}  alt="..."/>
-            <img src={eight}  alt="..."/>
-            <img src={five}  alt="..."/>
-            <img src={six}  alt="..."/>
-            <img src={seven}  alt="..."/>
-            <img src={six1}  alt="..."/>
-            <img src={four}  alt="..."/>
+            <img className="image-brand" src={one} alt="..." />
+            <img className="image-brand" src={second}  alt="..."/>
+            <img className="image-brand" src={third}  alt="..."/>
+            <img className="image-brand" src={eight}  alt="..."/>
+            <img className="image-brand" src={five}  alt="..."/>
+            <img className="image-brand" src={six}  alt="..."/>
+            <img className="image-brand" src={seven}  alt="..."/>
+            <img className="image-brand" src={six1}  alt="..."/>
+            <img className="image-brand" src={four}  alt="..."/>
         </div>
         <div className="cards">
             <div className="image">

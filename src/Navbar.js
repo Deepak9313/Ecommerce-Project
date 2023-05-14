@@ -1,15 +1,13 @@
 import React from "react";
-import Card from "./Card";
 import "./Navbar.css";
 import { Outlet, Link } from "react-router-dom";
-let dark = document.getElementById("dark");
 function darkmode() {
   var element = document.body;
   element.classList.toggle("dark");
 }
 const Navbar = (props) => {
   return (<>
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg navbara1">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">Home</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -52,6 +52,9 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.image-brand{
+  padding: 20px;
+}
 .desc1{
   width: 50%;
   background-color:rgb(9, 73, 64);
