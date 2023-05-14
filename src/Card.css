@@ -28,6 +28,13 @@
     margin:10px;
     transition: 0.3s;
 }
+.ani{
+    transition: 0.9s;
+}
+.ani:hover{
+    transition:0.8s;
+    transform: scale(1.1);
+}
 .btn:hover{
     transition: 0.8s;
     background-color: crimson;

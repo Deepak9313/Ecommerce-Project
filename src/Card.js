@@ -7,7 +7,7 @@ const Card = (props) => {
         newcount((c)=>c+1);
     }
     return (<>
-        <div className="card" >
+        <div className="card ani" >
             <img src={props.img} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>

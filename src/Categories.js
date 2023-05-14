@@ -25,7 +25,7 @@ const Categories = ()=>{
         let data1 = await fetch1.json();
         console.log("The limit is " + limit);
         console.log("The no of skip is "+skip);
-        // useskip(skip=skip.concat(skip+10) )
+        useskip(skip=skip.concat(skip+10) )
         setproducts(products,...data1.products);
     }
     // async componentDidUpdate(){
@@ -43,7 +43,7 @@ const Categories = ()=>{
     <InfiniteScroll
         dataLength={products.length}
         next ={fetchmoredata}
-        hasMore={true}
+        hasMore={false}
         loader={<h2>Loading...</h2>}
     >
     <div className="container1">
